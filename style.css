@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+    background-color: rgb(47, 31, 12);
+}
+
+header{
+    display: flex;
+    height: 110px;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.624);
+    width: 100%;
+
+}
+
+a{
+    text-decoration: none;
+    font-size: 23px;
+    color: #42382f;
+    font-weight: 700;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.carousel, .carousel-inner{
+    height: 100vh;
+}
+
+#Cardápio{
+    background-color: rgb(47, 31, 12);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#CARDÁPIO, h1{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    background-color: #42382f;
+    
+}
+
+#lista{
+    color: white;
+}
+
+.itemCardápio{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    
+    
+}
+
+.itemCardápio img{
+    width: 300px;
+}
+
+.itemCardápio:hover{
+    transform: scale(1.1);
+    color: orange;
+}
+
+
+#modalCafé, #modalTorta ,#modalMilkshakes, #modalSalgados{
+    display: none;
+    overflow-y: auto;
+
+}
+
+.modalItems{
+    position: absolute;
+    z-index: 999;
+    background-color: antiquewhite;
+    width: 50%;
+    height: 60%;
+    padding : 40px;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.fechar, .fecharTortas, .fecharMilkshakes, .fecharSalgados{
+    font-size: 40px;
+    cursor: pointer;
+    background-color:rgb(46, 32, 8);
+    color: white;
+    padding: 0 19px;
+    border-radius: 50%;
+    margin-right: 50px;
+    
+}
+
+.modalItems p{
+    margin-top: 30px;
+}
+
+.modalContentTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tituloCardapio{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(53, 35, 10);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.modalConteúdo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.conteudoflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+}
+
+
