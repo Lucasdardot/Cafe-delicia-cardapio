@@ -17,7 +17,7 @@ modalcafe = document.getElementById("modalCafé")
 //salgados
  abrirSalgados = document.getElementById("openSalgados")
  modalSalgados = document.getElementById("modalSalgados")
- fecharSalgados = document.getElementById("fecharSalgados")
+ fecharSalgados = document.getElementsByClassName("fecharSalgados")[0]
  
  
  
